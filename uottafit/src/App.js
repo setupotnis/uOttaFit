@@ -1,6 +1,18 @@
 import React from 'react';
 import logo from './logo.svg';
+
  import './css/index.css';
+ import './css/animate.css';
+ import './css/slicknav.css';
+ import './css/bootstrap.min.css';
+ import css from './css/gijgo.css';
+ import './css/owl-carousel.min.css';
+ import './css/theme-default.css';
+ import css './css/font-awesome.min.css';
+
+
+
+
 
 
 function App() {
@@ -15,7 +27,7 @@ function App() {
                             <div className="col-xl-3 col-lg-2">
                                 <div className="logo">
                                     <a href="index.html">
-                                        <h1 style={{fontFamily: "Montserrat,sansSerif"}, {color: "green"}}>uOttaFit</h1>
+                                        <h1 styles={{fontFamily: "Montserrat,sansSerif"}, {color: "green"}}>uOttaFit</h1>
                                     </a>
                                 </div>
                             </div>
