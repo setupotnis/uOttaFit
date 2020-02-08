@@ -17,7 +17,6 @@ import Background from "../src/photos/person-holding-barbell-841130.jpg";
 // var sloganStyle={}
 function App() {
   return (
-<<<<<<< Updated upstream
 <React.Fragment>
  <div className="App">
      <header>
@@ -39,15 +38,6 @@ function App() {
         </Container>
 
         </div>
-=======
-
- <div className="App" style={{backgroundSize:"fill"}}src={require("./photos/person-holding-barbell-841130.jpg")}>
-   
-       <h3>Lift stong</h3>
-        <h3>Lift safe</h3>
-      
- 
->>>>>>> Stashed changes
 </div>
 
 </React.Fragment>
