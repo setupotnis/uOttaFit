@@ -1,0 +1,86 @@
+@include exports("colorpicker/theme") {
+
+    .k-colorpicker {
+        background-color: transparent;
+
+        // Normal state
+        .k-picker-wrap {
+            @include fill(
+                $colorpicker-select-text,
+                $colorpicker-select-bg,
+                $colorpicker-select-border,
+                $colorpicker-select-gradient
+            );
+            @include use-background-clip();
+
+            &:focus {
+
+            }
+
+            // Invalid state
+            &.k-invalid,
+            &.k-invalid:hover,
+            &.k-state-invalid,
+            &.ng-invalid.ng-touched,
+            &.ng-invalid.ng-dirty {
+                color: $error;
+                border-color: $invalid-border;
+            }
+        }
+        .k-select {
+            padding: 0;
+            width: button-inner-size();
+            border-width: 0;
+        }
+
+        // Hovered state
+        .k-tool-icon:hover,
+        .k-select:hover,
+        .k-tool-icon.k-state-hover,
+        .k-select.k-state-hover,
+        .k-state-hover {
+            @include fill(
+                $colorpicker-select-hovered-text,
+                $colorpicker-select-hovered-bg,
+                $colorpicker-select-hovered-border,
+                $colorpicker-select-hovered-gradient
+            );
+        }
+
+        .k-tool-icon:hover,
+        .k-tool-icon.k-state-hover {
+            cursor: pointer;
+            border-color: rgba(0, 0, 0, .08);
+        }
+
+        // Selected state
+        .k-state-active {
+            @include fill(
+                $colorpicker-select-focused-text,
+                $colorpicker-select-focused-bg,
+                $colorpicker-select-focused-border,
+                $colorpicker-select-focused-gradient
+            );
+            @include box-shadow( $colorpicker-select-pressed-shadow );
+        }
+
+        // Focused state
+        .k-state-focused {
+            box-shadow: $colorpicker-select-focused-shadow;
+        }
+
+    }
+
+    .k-flatcolorpicker {
+        @include appearance( panel );
+
+        .k-color-value {
+            @include fill(
+                $colorpicker-text,
+                $colorpicker-bg,
+                $colorpicker-border
+            );
+        }
+    }
+
+}

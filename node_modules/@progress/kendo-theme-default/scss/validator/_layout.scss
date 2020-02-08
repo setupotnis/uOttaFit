@@ -1,0 +1,25 @@
+@include exports("validator/layout") {
+
+    .k-tooltip-validation {
+        margin: ($spacer / 2) 0 0;
+        position: static;
+        border-width: 0;
+        display: inline-flex;
+        flex-direction: row;
+        align-items: center;
+        z-index: 9999;
+
+        &[hidden] {
+            display: none;
+        }
+
+        > .k-icon {
+            margin-right: ($padding-x / 2);
+        }
+
+        .k-callout {
+            display: none;
+        }
+    }
+
+}

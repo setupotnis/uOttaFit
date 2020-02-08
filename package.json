@@ -15,5 +15,22 @@
   "bugs": {
     "url": "https://github.com/setupotnis/uOttaFit/issues"
   },
-  "homepage": "https://github.com/setupotnis/uOttaFit#readme"
+  "homepage": "https://github.com/setupotnis/uOttaFit#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.27",
+    "@fortawesome/free-solid-svg-icons": "^5.12.1",
+    "@fortawesome/react-fontawesome": "^0.1.8",
+    "@progress/kendo-theme-default": "^4.12.1",
+    "gijgo": "^1.9.13",
+    "jquery-nice-select": "^1.1.0",
+    "magnific-popup": "^1.1.0",
+    "react-icons": "^3.9.0",
+    "react-owl-carousel": "^2.3.1",
+    "slicknav": "^1.0.8",
+    "theme-default": "^4.0.0",
+    "themify-icons": "^1.0.0"
+  },
+  "devDependencies": {
+    "install-peers": "^1.0.3"
+  }
 }
