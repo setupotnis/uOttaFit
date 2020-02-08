@@ -5,22 +5,12 @@ import React from 'react';
 import styled from "styled-components";
 import Background from "./photos/back.jpg";
 import {Image} from 'react-bootstrap';
-const Styles = styled.div `
-.Image{
-    height: 100vh;
-   
-    background-repeat: no-repeat;
-    background-size: fill;
-    height:100%;
-    width:100%;
-}
-`
-
 
 function App() {
   return (
 
- <div className="App"><Image src={require("./photos/back.jpg")}></Image>
+ <div className="App">
+     <img style={{backgroundSize:"fill"}}src={require("./photos/person-holding-barbell-841130.jpg")}></img>
 </div>
     
       
