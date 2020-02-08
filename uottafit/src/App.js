@@ -12,9 +12,10 @@ import React from 'react';
 
 function App() {
   return (
-      <div classNameName="App">
-
-<div className="header-area ">
+<React.Fragment>
+ <div className="App">
+    <div style ={{backgroundColor: "blue", backgroundSize:"cover", fill:"100%", hight:'fill'}}>
+    <div className="header-area ">
             <div id="sticky-header" className="main-header-area">
                 <div className="container-fluid ">
                     <div className="header_bottom_border">
@@ -113,7 +114,7 @@ function App() {
                     <div className="col-lg-4 col-md-6">
                         <div className="single_prising text-center">
                             <div className="prising_header">
-                                    <h3>Beginner</h3>
+                                    <h3>Bench</h3>
                                     <span>$45/m</span>
                             </div>
                             <div className="pricing_body">
@@ -132,7 +133,7 @@ function App() {
                     <div className="col-lg-4 col-md-6">
                         <div className="single_prising text-center">
                             <div className="prising_header">
-                                    <h3>Expert</h3>
+                                    <h3>Deadlift</h3>
                                     <span>$45/m</span>
                             </div>
                             <div className="pricing_body">
@@ -151,7 +152,7 @@ function App() {
                     <div className="col-lg-4 col-md-6">
                         <div className="single_prising text-center">
                             <div className="prising_header">
-                                    <h3>Pro</h3>
+                                    <h3>Squats</h3>
                                     <span>$45/m</span>
                             </div>
                             <div className="pricing_body">
@@ -171,8 +172,9 @@ function App() {
             </div>
         </div>
 
-
+</div>
       </div>
+      </React.Fragment>
   );
 }
 
