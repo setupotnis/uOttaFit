@@ -17,12 +17,24 @@
   color: white;
   font-family: Brush script MT;
 }
-.col-sm{
-margin: 00%;
-background-color: aliceblue;
+.col{
+margin: 50px;
 
+padding: 20px;
+display:inline-block;
+}
+.container{
+position: relative;
+}
 
+.col.exersice{
+  font-size: 20px;
+  color: white;
+  font-family: "Montserrat";
+  font-Weight:'bold';
+}
 
+.row{
 
 }
 
@@ -32,7 +44,7 @@ background-color: aliceblue;
   background-color: lightblue;
 }
 .App-body{
-
+height: 100%;
   background-image: url(../photos/person-holding-barbell-841130.jpg);
   background-size: cover;
 

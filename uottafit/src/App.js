@@ -19,10 +19,10 @@ function App() {
   return (
 <React.Fragment>
  <div className="App">
-     <header>
-
+     <header className="App-header">
+<div>blakd</div>
      </header>
-<div className = "App-body">
+<body className = "App-body">
 <Container fluid={true}>
 
       
@@ -30,14 +30,29 @@ function App() {
                 uOttaFit
             </div>
             <div className='row' style={{fontFamily:"Montserrat", fontWeight:'bold', fontSize: "50px", color: "white"}}>
-                Lift strong lift safe<div></div>
+                Lift Strong. Lift Safe.
+                </div>
 
-            </div>
+          <div className='row'>
+                
+                <div className="col exersice" >
+                <div><p>bench</p></div>
+
+                </div>
+                <div className="col exersice">
+                <div><p>bench</p></div>
+                  </div>
+                  <div className="col exersice">
+                  <div><p>bench</p></div>
+                  </div>
+            
+                  </div>
+                  
      
         
         </Container>
 
-        </div>
+        </body>
 </div>
 
 </React.Fragment>
