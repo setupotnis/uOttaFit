@@ -4,6 +4,7 @@ import'./css/App.css';
 import styled from "styled-components";
 import {Image, Jumbotron,Grid,Row,Button,Container} from 'react-bootstrap';
 
+
 var logoStyle={
     fontFamily:"font-family: Playfair 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif",  
     fontSize: "100px", 
