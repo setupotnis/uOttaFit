@@ -29,7 +29,7 @@ function App() {
         <div>uOttaHack3</div>
     </header>
 <body className = "App-body">
-<Container fluid={true}>
+<Container >
 
       
             <div className="row" style={logoStyle}>
