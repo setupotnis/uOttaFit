@@ -28,8 +28,11 @@ position: relative;
 }
 
 .col.exercise{
+  margin: 70px;
+  width: 120px;
   border: 5px solid white;
   border-radius: 5px;
+  padding: 20px 30px;
   font-size: 20px;
   color: white;
   font-family: Playfair 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,12 +44,6 @@ position: relative;
   border-radius: 10px;
   cursor: pointer;
   opacity: 0.8;
-}
-.grid-container {
-  display: grid;
-}
-.grid-container--fill {
-  grid-template-columns: repeat(3, 1fr);
 }
 .topic{
   background-color: lightblue;

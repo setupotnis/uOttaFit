@@ -1,7 +1,6 @@
 import React from 'react';
 import './css/index.css';
 import'./css/App.css';
-import styled from "styled-components";
 import {Image, Jumbotron,Grid,Row,Button,Container} from 'react-bootstrap';
 
 
@@ -31,7 +30,7 @@ function App() {
         {/* <div>uOttaHack3</div> */}
     </header>
 <body className = "App-body" style={fillPage}>
-        <Container >
+        <Container>
             <div className="row" style={logoStyle}>
                 uOttaFit
             </div>
