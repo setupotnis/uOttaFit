@@ -7,46 +7,53 @@ import styled from "styled-components";
 import {Image, Jumbotron,Grid,Row,Button,Container} from 'react-bootstrap';
 import Background from "../src/photos/person-holding-barbell-841130.jpg";
 
-// var logoStyle = {
-//     backgroundImage: "url("+ Background + ")",
-//     backgroundSize:"cover", 
-//     height: "100%", 
-//     width: "100%", 
-//     position: 'center'
-// }
-// var sloganStyle={}
+var logoStyle={
+    fontFamily:"font-family: Playfair 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif",  
+    fontSize: "100px", 
+    color: "white",
+}
+var sloganStyle ={
+    fontFamily:"font-family: Playfair 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif", 
+    fontWeight:'bold', 
+    fontSize: "50px", 
+    color: "white",
+}
+var fillPage ={
+
+}
 function App() {
   return (
 <React.Fragment>
  <div className="App">
-     <header className="App-header">
-<div>blakd</div>
-     </header>
+    <header className="App-header">
+        <div>uOttaHack3</div>
+    </header>
 <body className = "App-body">
 <Container fluid={true}>
 
       
-            <div className="row" style={{fontFamily:"Montserrat", fontWeight:'bold', fontSize: "100px", color: "white"}}>
+            <div className="row" style={logoStyle}>
                 uOttaFit
             </div>
-            <div className='row' style={{fontFamily:"Montserrat", fontWeight:'bold', fontSize: "50px", color: "white"}}>
+            <div className='row' style={sloganStyle}>
                 Lift Strong. Lift Safe.
+            </div>
+            <div className='row'>
+                <div className="col exercise" >
+                <div>
+                    <p>Deadlift</p>
                 </div>
 
-          <div className='row'>
-                
-                <div className="col exersice" >
-                <div><p>bench</p></div>
-
                 </div>
-                <div className="col exersice">
-                <div><p>bench</p></div>
+                <div className="col exercise">
+                <div>
+                    <p>Benchpress</p></div>
+                </div>
+                  <div className="col exercise">
+                  <div>
+                    <p>Squat</p></div>
                   </div>
-                  <div className="col exersice">
-                  <div><p>bench</p></div>
-                  </div>
-            
-                  </div>
+                </div>
                   
      
         
