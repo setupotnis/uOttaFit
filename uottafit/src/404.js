@@ -1,5 +1,7 @@
 import React from "react";
-const Nopagefound = () =>{
+
+
+const noPageFound = () => {
 
     return (
         <div>
@@ -8,4 +10,4 @@ const Nopagefound = () =>{
     );
 };
 
-export default Nopagefound;
+export default noPageFound;

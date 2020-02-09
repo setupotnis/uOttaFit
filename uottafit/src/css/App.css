@@ -18,39 +18,36 @@
   font-family: Playfair 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 } */
 .col{
-margin: 50px;
-padding: 20px;
 display:inline-block;
-height: 40px;
-width: 60px;
 justify-content: center;
 text-align: center;
-text-decoration: none;
-top: 50%;
-left: 50%;
+
 }
 .container{
 position: relative;
 }
 
 .col.exercise{
-  box-shadow: 5px 10px 18px rgb(21, 84, 219);
-  text-shadow: 5px 10px 18px rgb(21, 84, 219);
   border: 5px solid white;
   border-radius: 5px;
-  padding: 100px 80px;
   font-size: 20px;
   color: white;
   font-family: Playfair 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-weight: bold;
+  background: grey;
+  opacity:0.7;
 }
 .col.exercise:hover {
-  color: rgb(211, 55, 7);
-  border: 5px solid rgb(110, 206, 54);
-  box-shadow: 5px 10px 30px rgb(211, 55, 7);
+  background: rgb(71, 71, 71);
   border-radius: 10px;
+  cursor: pointer;
+  opacity: 0.8;
 }
-
+.grid-container {
+  display: grid;
+}
+.grid-container--fill {
+  grid-template-columns: repeat(3, 1fr);
+}
 .topic{
   background-color: lightblue;
 }

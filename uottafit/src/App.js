@@ -31,26 +31,28 @@ function App() {
         {/* <div>uOttaHack3</div> */}
     </header>
 <body className = "App-body" style={fillPage}>
-<Container >
+        <Container >
             <div className="row" style={logoStyle}>
                 uOttaFit
             </div>
             <div className='row' style={sloganStyle}>
                 Lift Strong. Lift Safe.
             </div>
-            <div className='row'>
-                <div className="col exercise" >
-                    <div>
-                        <p>Deadlift</p>
+            <div className='grid-container grid-container--fit'>
+                <div className='row'>
+                    <div className="col exercise" >
+                        <div>
+                            <p>Deadlift</p>
+                        </div>
                     </div>
-                </div>
-                <div className="col exercise">
-                    <div>
-                        <p>Benchpress</p></div>
-                    </div>
-                <div className="col exercise">
-                    <div>
-                        <p>Squat</p>
+                    <div className="col exercise">
+                        <div>
+                            <p>Benchpress</p></div>
+                        </div>
+                    <div className="col exercise">
+                        <div>
+                            <p>Squat</p>
+                        </div>
                     </div>
                 </div>
             </div>
