@@ -6,8 +6,8 @@
   height: 0 px;
 }
 
-.App-header {
-  background-color: #282c34;
+/* .App-header { */
+  /* background-color: #282c34;
   min-height: 20vh;
   display: flex;
   flex-direction: column;
@@ -16,7 +16,7 @@
   font-size: calc(15px + 2vmin);
   color: white;
   font-family: Playfair 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+} */
 .col{
 margin: 50px;
 padding: 20px;
@@ -35,6 +35,7 @@ position: relative;
   font-size: 20px;
   color: white;
   font-family: Playfair 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
 }
 .col.exercise:hover {
   color: rgb(211, 55, 7);
@@ -43,21 +44,13 @@ position: relative;
   border-radius: 10px;
 }
 
-/* .row{
-
-} */
-
-
 .topic{
   background-color: lightblue;
 }
 .App-body{
-height: 100%;
   background-image: url(../photos/person-holding-barbell-841130.jpg);
   background-size: cover;
-
 }
-
 
 .App-link {
   color: #09d3ac;
